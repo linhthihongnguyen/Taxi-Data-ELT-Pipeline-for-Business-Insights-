@@ -3,7 +3,6 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.clustering import KMeans
 from pyspark.ml.stat import Correlation
 import pandas as pd
 
